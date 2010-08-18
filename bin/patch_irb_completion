@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require "patch_irb_completion"
+PatchIRBCompletion::Suggest.call
